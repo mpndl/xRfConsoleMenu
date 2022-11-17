@@ -1,0 +1,9 @@
+<menu controller="nmu.wrpv301.Controller" title="Main Menu">
+ <choice text="What is your name?" action="whatIsYourNameAction"/>
+ <choice text="Say hello world" action ="helloWorldAction"/>
+ <choice text="Display 5 x table" action ="fiveTimesTableAction"/>
+ <submenu text="Other functions" action ="SubMenu">
+  <choice text="Is prime?" action ="isPrimeAction"/>
+  <choice text="Is odd?" action ="isOddAction"/>
+ </submenu>
+</menu>
